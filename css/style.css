@@ -1,0 +1,25 @@
+div {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: burlywood;
+}
+
+@media screen and (min-width: 540px) {
+    div {
+        background-color: aqua;
+    }
+}
+@media screen and (min-width: 720px) {
+    div {
+        background-color: rgb(41, 78, 78);
+    }
+}
+@media screen and (min-width: 960px) {
+    div {
+        background-color: rgb(121, 90, 235);
+    }
+}
+@media screen and (min-width: 1140px) {
+    div {
+        background-color: rgb(80, 24, 72);
+    }
+}
